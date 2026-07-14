@@ -43,3 +43,7 @@ export function changeApplicationStatus(
 export function clearApplications(): void {
   applications.length = 0;
 }
+
+export function getApplications(): Application[] {
+  return applications;
+}
