@@ -10,6 +10,7 @@ import type { ApplicationStatus } from "../domain/applicationWorkflow";
 export const app = express();
 
 app.use(express.json());
+app.use(express.static("public"));
 
 function isApplicationStatus(value: unknown): value is ApplicationStatus {
   return (
