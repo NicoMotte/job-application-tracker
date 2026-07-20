@@ -2,3 +2,5 @@ node_modules/
 coverage/
 dist/
 .env
+playwright-report/
+test-results/
