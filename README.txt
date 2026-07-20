@@ -1,3 +1,5 @@
+![CI](https://github.com/NicoMotte/job-application-tracker/actions/workflows/ci.yml/badge.svg)
+
 # Job Application Tracker
 
 Prototype réalisé pour mettre en place une stratégie de test complète (test unitaire, intégration, API, End to End avec Playwright, intégration continue sous Git)
