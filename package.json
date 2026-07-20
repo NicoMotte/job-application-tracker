@@ -10,13 +10,17 @@
     "test:vitest": "vitest run",
     "test:api": "vitest run tests/api",
     "dev": "tsx watch src/server/server.ts",
-    "start": "tsx src/server/server.ts"
+    "start": "tsx src/server/server.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:all": "npm run test:vitest && npm run test:e2e"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@types/express": "^5.0.6",
     "@types/node": "^26.1.1",
     "@types/supertest": "^7.2.0",
