@@ -23,7 +23,6 @@ GitHub Actions
 
 ## Stratégie de test
 
-
 ## Commandes
 
 Installer les dépendances :
